@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Atlı;Dinçer;;Prof. Dr.;
+FN:Prof. Dr. Dinçer Atlı
+ORG:Connectome Nöropazarlama Danışmanlık Hizmetleri
+TITLE:Kurucu Direktör
+TEL;TYPE=CELL,VOICE:+905322679028
+EMAIL;TYPE=INTERNET,WORK:info@connectome.com.tr
+URL;TYPE=WORK:https://www.connectome.com.tr
+ADR;TYPE=WORK:;;Altunizade Mahallesi Haluk Türksoy Sk. No: 11/4;Üsküdar;İstanbul;;Türkiye
+END:VCARD

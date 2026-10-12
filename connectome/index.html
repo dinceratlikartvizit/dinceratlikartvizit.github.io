@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#3a3a3a">
+<title>Prof. Dr. Dinçer Atlı · Connectome</title>
+<meta name="description" content="Prof. Dr. Dinçer Atlı · Kurucu Direktör · Connectome Nöropazarlama Danışmanlık Hizmetleri">
+<style>
+  :root {
+    --bg: #3a3a3a;
+    --surface: #444444;
+    --surface-2: #4e4e4e;
+    --line: #575757;
+    --text: #ffffff;
+    --muted: #c9c9c9;
+    --accent: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.45;
+    -webkit-text-size-adjust: 100%;
+  }
+  main {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 24px 16px calc(32px + env(safe-area-inset-bottom));
+  }
+
+  header { text-align: center; margin-bottom: 18px; }
+  h1 { font-size: 24px; margin: 0 0 4px; font-weight: 600; letter-spacing: -0.01em; }
+  h1 .pre { font-weight: 300; }
+  .role { margin: 0; color: var(--muted); font-size: 17px; font-weight: 300; }
+  .org { margin: 2px 0 0; color: var(--muted); font-size: 13px; letter-spacing: .08em; text-transform: uppercase; }
+
+  .card-view { max-width: min(340px, 34vh); margin: 0 auto; }
+  .card-view img {
+    display: block; width: 100%; height: auto; border-radius: 12px;
+    aspect-ratio: 3 / 5; background: #444;
+    box-shadow: 0 10px 30px rgba(0,0,0,.35);
+  }
+  .card-view img + img { margin-top: 12px; }
+  .js .card-view img + img { margin-top: 0; }
+  .js .card-view img[hidden] { display: none; }
+  .tabs { display: none; }
+  .js .tabs { display: flex; gap: 6px; justify-content: center; margin-top: 12px; }
+  .tabs button {
+    font: inherit; font-size: 14px; border: 1px solid var(--line); cursor: pointer;
+    background: transparent; color: var(--muted); padding: 7px 16px; border-radius: 999px;
+  }
+  .tabs button[aria-selected="true"] { background: var(--accent); border-color: var(--accent); color: #333; }
+
+  .save {
+    display: flex; align-items: center; justify-content: center; gap: 10px;
+    margin: 22px 0 12px; padding: 16px; border-radius: 12px;
+    background: var(--accent); color: #333; text-decoration: none;
+    font-size: 17px; font-weight: 700;
+  }
+  .save:active { background: #e6e6e6; }
+
+  .actions { list-style: none; margin: 0; padding: 0; background: var(--surface); border-radius: 12px; overflow: hidden; border: 1px solid var(--line); }
+  .actions li + li { border-top: 1px solid var(--line); }
+  .actions a {
+    display: flex; align-items: center; gap: 14px; padding: 14px 16px;
+    color: var(--text); text-decoration: none; min-height: 56px;
+  }
+  .actions a:active { background: var(--surface-2); }
+  .icon {
+    flex: none; width: 36px; height: 36px; border-radius: 10px;
+    display: grid; place-items: center; background: var(--surface-2); color: var(--text);
+  }
+  .icon svg { width: 18px; height: 18px; }
+  .label { display: block; font-size: 13px; color: var(--muted); }
+  .value { display: block; font-size: 16px; font-weight: 600; word-break: break-word; }
+
+  footer { text-align: center; color: var(--muted); font-size: 12px; margin-top: 22px; }
+  footer a { color: inherit; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1><span class="pre">Prof. Dr.</span> Dinçer Atlı</h1>
+    <p class="role">Kurucu Direktör</p>
+    <p class="org">Connectome · Nöropazarlama Danışmanlık Hizmetleri</p>
+  </header>
+
+  <section class="card-view" aria-label="Kartvizit">
+    <img id="img-on" src="img/on-yuz.jpg" width="1200" height="2000" alt="Kartvizit – ön yüz">
+    <img id="img-arka" src="img/arka-yuz.jpg" width="1200" height="2000" alt="Kartvizit – arka yüz">
+    <div class="tabs" role="tablist">
+      <button type="button" role="tab" data-show="img-on" aria-selected="true">Ön yüz</button>
+      <button type="button" role="tab" data-show="img-arka" aria-selected="false">Arka yüz</button>
+    </div>
+  </section>
+
+  <a class="save" href="dincer-atli-connectome.vcf" download="Dincer-Atli-Connectome.vcf">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M19 8v6M22 11h-6"/></svg>
+    Rehbere Kaydet
+  </a>
+
+  <ul class="actions">
+    <li><a href="tel:+905322679028">
+      <span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg></span>
+      <span><span class="label">Telefon</span><span class="value">+90 532 267 90 28</span></span>
+    </a></li>
+    <li><a href="mailto:info@connectome.com.tr">
+      <span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></span>
+      <span><span class="label">E-posta</span><span class="value">info@connectome.com.tr</span></span>
+    </a></li>
+    <li><a href="https://www.connectome.com.tr" target="_blank" rel="noopener">
+      <span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span>
+      <span><span class="label">Web sitesi</span><span class="value">www.connectome.com.tr</span></span>
+    </a></li>
+    <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Altunizade+Mahallesi+Haluk+T%C3%BCrksoy+Sk.+No%3A11%2F4+%C3%9Csk%C3%BCdar+%C4%B0stanbul" target="_blank" rel="noopener">
+      <span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+      <span><span class="label">Adres</span><span class="value">Altunizade Mahallesi Haluk Türksoy Sk. No: 11/4, Üsküdar / İstanbul</span></span>
+    </a></li>
+  </ul>
+
+  <footer>Connectome · <a href="https://www.connectome.com.tr" rel="noopener">connectome.com.tr</a></footer>
+</main>
+<script>
+(function () {
+  document.documentElement.classList.add('js');
+  var tabs = document.querySelectorAll('[data-show]');
+  function show(id) {
+    for (var i = 0; i < tabs.length; i++) {
+      var t = tabs[i], on = t.getAttribute('data-show') === id;
+      t.setAttribute('aria-selected', on ? 'true' : 'false');
+      document.getElementById(t.getAttribute('data-show')).hidden = !on;
+    }
+  }
+  for (var i = 0; i < tabs.length; i++) tabs[i].addEventListener('click', function () { show(this.getAttribute('data-show')); });
+  show('img-on');
+})();
+</script>
+</body>
+</html>
